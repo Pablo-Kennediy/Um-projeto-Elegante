@@ -8,14 +8,14 @@
 }
 section{
     position: relative;
-    width: 100%;
     min-height: 100vh;
-    padding: 100px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background: #121212;
     overflow: hidden;
+}
+article{
+        margin: 50px;
 }
 .circle{
     position: absolute;
@@ -27,7 +27,9 @@ section{
     clip-path: circle(50% at bottom right);
 }
 header{
+    display: block;
     position: absolute;
+    padding-bottom: 50vh;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,47 +38,51 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+header .logo img{
+    background-attachment: fixed;
+}
 header .logo{
     position: relative;
+    background-attachment: fixed;
     max-width: 150px;
+    border-radius: 100px;
 }
-header .navegation ul{
+.navegation{
+    width: 100%;
     position: relative;
-    display: flex;
 }
 header .navegation  li{
-    list-style: none;
+    display: inline-block;
 }
 header .navegation li a{
     display: inline-block;
+    padding-top: 50px;
     color: #fff;
-    font-weight: 500;
     text-decoration: none;
-    font-size: 19px;
+    font-size: larger;
     margin-left: 100px;
 }
 .content{
     position: relative;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .content .text{
     position: relative;
-    max-width: 600px;
     margin-right: 20px;
+    padding-top: 25vh;
 }
-.content .text h2{
+.content .text{
     color: #fff;
-    font-size: 3em;
+    font-size: larger;
     margin-bottom: 10px;
     line-height: 2.5em;
-    font-weight: 700;
 }
 .content .text h2 span{
-    font-size: 3.5em;
+    font-size: larger;
     color: #e51e2a;
+    margin: 10px;
 }
 .content .text p{
     color: #fff;
@@ -97,10 +103,10 @@ header .navegation li a{
     transform: translateY(-10px);
 }
 .icons{
-    position: absolute;
+    display: inline-block;
+    position: relative;
     bottom: 40px;
     left: 100px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -109,11 +115,11 @@ header .navegation li a{
 }
 .icons li a{
     display: inline-block;
+    display: flex;
     margin-left: 45px;
     background: #222;
     width: 50px;
     height: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -128,13 +134,13 @@ header .navegation li a{
     transform: scale(0.5);
 }
 .boxImg{
-    position: absolute;
+    position: relative;
     right: 0;
-    bottom: -55px;
 }
 .boxImg img{
     display: inline-block;
-    width: 150px;
+    width: 100px;
+    bottom: -55px;
 }
 .boxImg .img1{
     transform: rotate(-15deg)
