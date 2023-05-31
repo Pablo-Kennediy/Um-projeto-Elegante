@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+picture{
+    display: block;
+}
 section{
     position: relative;
     min-height: 100vh;
@@ -139,19 +142,21 @@ header .navegation li a{
     right: 0;
 }
 .boxImg img{
-    display: inline-block;
-    width: 100px;
     bottom: -55px;
 }
 .boxImg .img1{
+        width: 200px;
     transform: rotate(-15deg)
 }
 .boxImg .img2{
+        width: 200px;
     transform: rotate(5deg)
 }
 .boxImg .img3{
+        width: 200px;
     transform: rotate(15deg)
 }
 .boxImg .img4{
+        width: 200px;
     transform: rotate(-15deg)
 }
