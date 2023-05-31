@@ -6,9 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-picture{
-    display: block;
-}
 section{
     position: relative;
     min-height: 100vh;
@@ -28,6 +25,13 @@ article{
     height: 100%;
     background: #e61926;
     clip-path: circle(50% at bottom right);
+}
+picture img{
+    position: relative;
+    background-attachment: fixed;
+    max-width: 150px;
+    margin: 25px;
+    border-radius: 100px;
 }
 header{
     display: block;
