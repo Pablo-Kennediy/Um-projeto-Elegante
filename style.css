@@ -27,11 +27,14 @@ article{
     clip-path: circle(50% at bottom right);
 }
 picture img{
+    display: block;
     position: relative;
-    background-attachment: fixed;
     max-width: 150px;
-    margin: 25px;
     border-radius: 100px;
+}
+.logo{
+    background-attachment: fixed;
+    margin: 25px;
 }
 header{
     display: block;
@@ -44,15 +47,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-header .logo img{
-    background-attachment: fixed;
-}
-header .logo{
-    position: relative;
-    background-attachment: fixed;
-    max-width: 150px;
-    border-radius: 100px;
 }
 .navegation{
     display: inline-block;
