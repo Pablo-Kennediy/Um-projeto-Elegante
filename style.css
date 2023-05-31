@@ -48,6 +48,7 @@ header .logo{
     border-radius: 100px;
 }
 .navegation{
+    display: inline-block;
     width: 100%;
     position: relative;
 }
